@@ -1,0 +1,189 @@
+@media (max-width: 480px){
+    body{
+        background-color: white !important;
+    }
+
+    .container{
+        margin: 0 !important;
+        padding-left: 0 !important;
+        width: 100% !important;
+        align-self: stretch !important;
+    }
+
+    img {
+        width: 100vw !important;
+        margin-top:-60px !important;
+        display: block !important;
+        border: none !important;
+        border-radius: 0 !important;
+        margin-left: -15px !important;
+        margin-right: -30px !important;
+    }
+
+    h1 {
+        font-size: 2rem !important;
+    }
+
+    .subtitle {
+        font-size: 1.25rem !important;
+        font-weight: bold;
+        margin-left: 1rem;
+    }
+
+    .content, .description  {
+        font-size: 1rem !important;
+        font-weight: normal !important;
+        margin-left: 1rem;
+    }
+
+    ol, ul{
+        padding-left: 12% !important;
+    }
+
+    .attribution{
+        font-size: 0.6rem !important;
+        margin-left: 1rem;
+        font-weight: normal !important;
+    }
+}
+
+body {
+    padding: 0.25%;
+    line-height: 1.75;
+    background-color: #f3e4dd
+
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    flex-direction: column;
+    background-color: white;
+    border-radius: 1rem;
+    max-width: 70vw;
+    margin: 5rem auto;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    padding: 3rem;
+}
+
+.introduction{
+    display:flex;
+    flex-direction: column;
+}
+
+h1 {
+    font-family: Young Serif;
+    font-size: 3.5rem;
+    font-weight: 500;
+    margin-bottom: 0.25%;
+}
+
+.subtitle {
+    padding-left: 0.5px;
+    font-family: Young Serif;
+    font-size: 1.75rem;
+    margin-bottom: 0.5%;
+    color: hsl(332, 51%, 32%);
+  }
+
+img {
+    border-radius:1rem;
+}
+
+.preparation {
+    margin-top: 0.25%;
+    padding-left: 5%;
+    list-style-position: inside;
+    display: flex;
+    flex-direction: column;
+    background-color: hsl(330, 100%, 98%);
+    border-radius: 1rem;
+    margin-bottom: 0.75%;
+    align-self: stretch;
+
+}
+
+.nutrition {
+    display: flex;
+    flex-direction: column;
+}
+
+.description {
+    color: hsl(30, 10%, 34%);
+    font-family: Outfit Thin;
+    font-weight: bold;
+    font-size: 1.25rem;
+    margin-bottom: 4%;
+}
+
+.content {
+    color: hsl(30, 10%, 34%);
+    list-style-position: inside;
+    font-family: Outfit Thin;
+    font-weight: bold;
+    font-size: 1.25rem;
+}
+
+.recipe{
+    display: flex;
+    flex-direction: column;
+}
+
+table {
+    width: 100% !important;
+    align-self:stretch !important;
+    border-collapse: collapse;
+    table-layout: fixed !important;
+    margin-left: 2rem !important;
+  }
+  
+  tr {
+    border-bottom: 0.1rem solid #e2dbdb;
+  }
+  
+  tr:last-child {
+    border-bottom: none;
+  }
+  
+  td {
+    padding: 0.75%;
+  }
+
+.value{
+    color:hsl(332, 51%, 32%);
+    font-weight: bold;
+}
+
+.attribution{
+    display:flex;
+    flex-direction: column;
+    color: hsl(30, 10%, 34%);
+    font-family: Outfit Thin;
+    font-weight: bold;
+    font-size: 1rem;
+}
+
+a{
+    color: inherit;
+    text-decoration: none;
+}
+
+a:hover {
+    color: hsl(332, 51%, 32%);
+}
+
+.challenge{
+    margin-bottom: 0.5%;
+}
+
+.coder{
+    margin-top: 0.5%;
+    margin-bottom: 0.5%;
+}
+
+ol, ul{
+    list-style-position: outside !important;
+    padding-left: 5%
+}
